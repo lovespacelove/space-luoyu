@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+}
+@media screen and (max-width: 480px){
+    html{
+        font-size: 50%;
+    }
+}
+body{
+    font-family: "Microsoft YaHei", serif;
+}
+img{
+    max-width: 100%;
+}
+.wrap{
+    background-color: #29bde0;
+    max-width: 640px;
+    margin: 0 auto;
+    text-align: center;
+}
+.ico{
+    padding: 10rem 5rem;
+}
+.wrap p{
+    color: white;
+    font-size: 4rem;
+    letter-spacing: 0.6rem;
+    padding: 0 0 12rem;
+}
